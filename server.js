@@ -2,7 +2,8 @@ var url   = require('url'),
     http  = require('http'),
     https = require('https'),
     fs    = require('fs'),
-    app   = require('express').createServer(),
+    express = require('express'),
+    app   = express(),
     qs    = require('querystring');
 
 // Load config defaults from JSON file.
